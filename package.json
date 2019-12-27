@@ -1,0 +1,19 @@
+{
+  "name": "repro-rollup-typescript-export-type-issue",
+  "version": "1.0.0",
+  "description": "Repro for rollup plugin issue https://github.com/rollup/plugins/issues/71",
+  "main": "dist/index.js",
+  "dependencies": {
+    "tslib": "^1.10.0",
+  },
+  "devDependencies": {
+    "@rollup/plugin-typescript": "^2.0.1",
+    "rollup": "^1.27.14",
+    "typescript": "^3.7.3"
+  },
+  "scripts": {
+    "rollup": "rollup -c",
+  },
+  "author": "Peter Jodogne <pete.jodogne@gmail.com>",
+  "license": "ISC"
+}
